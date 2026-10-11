@@ -1,0 +1,56 @@
+gelato 环境里就是 casadi 3.7.2 + numpy 1.26.4
+
+
+This is Ipopt version 3.14.11, running with linear solver MUMPS 5.4.1.
+
+Number of nonzeros in equality constraint Jacobian...:    31889
+Number of nonzeros in inequality constraint Jacobian.:     1934
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:     1691
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     1650
+Total number of inequality constraints...............:     1724
+        inequality constraints with only lower bounds:        9
+   inequality constraints with lower and upper bounds:     1691
+        inequality constraints with only upper bounds:       24
+
+Number of Iterations....: 550
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -1.1401422272674366e+00   -1.1401422272674366e+00
+Dual infeasibility......:   6.6133553071360999e-08    6.6133553071360999e-08
+Constraint violation....:   1.5390749785737512e-09    1.5390749785737512e-09
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.8517635475134731e-11    1.8517635475134731e-11
+Overall NLP error.......:   6.6133553071360999e-08    6.6133553071360999e-08
+
+
+Number of objective function evaluations             = 1083
+Number of objective gradient evaluations             = 550
+Number of equality constraint evaluations            = 1083
+Number of inequality constraint evaluations          = 1083
+Number of equality constraint Jacobian evaluations   = 554
+Number of inequality constraint Jacobian evaluations = 554
+Number of Lagrangian Hessian evaluations             = 0
+Total seconds in IPOPT                               = 77.452
+
+EXIT: Optimal Solution Found.
+      solver  :   t_proc      (avg)   t_wall      (avg)    n_eval
+       nlp_f  |   1.00ms (923.36ns)   2.00ms (  1.84us)      1083
+       nlp_g  |   1.94 s (  1.79ms)   2.01 s (  1.86ms)      1083
+  nlp_grad_f  |        0 (       0)   2.60ms (  4.73us)       551
+   nlp_jac_g  |  12.90 s ( 23.25ms)  12.58 s ( 22.67ms)       555
+       total  |  77.51 s ( 77.51 s)  77.51 s ( 77.51 s)         1
+IPOPT: Converged.
+Input file name : cz5-minimal/cz5-prof2-ca93-settings.json
+
+initial mass    : 858869.140 kg
+final mass      :   7669.140 kg
+payload         :   7669.140 kg
+
+optTime         :   81.663961
+
+Solve_Succeeded

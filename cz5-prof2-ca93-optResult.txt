@@ -1,0 +1,11 @@
+GELATO: GENERIC LAUNCH TRAJECTORY OPTIMIZER v1.0.1
+
+Input file name : cz5-minimal/cz5-prof2-ca93-settings.json
+
+initial mass    : 858869.140 kg
+final mass      :   7669.140 kg
+payload         :   7669.140 kg
+
+optTime         :   81.663961
+
+Solve_Succeeded
